@@ -1,7 +1,26 @@
 aid: behja
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/behja.png
 name: Behja
-description: Behja is a company surfaced as a portfolio company of 500-global and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Behja (Behja Holdings Limited Inc) is a licensed real estate platform in Saudi
+  Arabia (License 120022677) that offers flexible rental-to-own housing. Its model
+  lets residents select a property, apply, sign a three-year lease, and then buy
+  with a full year's rent credited back toward the purchase. The integrated platform
+  handles leases, purchases, and utility payments in one place. Behja is a portfolio
+  company of 500 Global and was added to the API Evangelist network as a company
+  profile; it does not currently publish a public developer program, API, SDKs, or
+  technical documentation.
 url: https://raw.githubusercontent.com/api-evangelist/behja/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,9 +30,15 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
 tags:
 - Company
+- Real Estate
+- Proptech
+- Rent-to-Own
+- Housing
+- Saudi Arabia
+- Fintech
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,3 +48,10 @@ maintainers:
 common:
 - type: Website
   url: https://behja.co
+- type: PrivacyPolicy
+  url: https://behja.co/ar/privacy-policy
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
